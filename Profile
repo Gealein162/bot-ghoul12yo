@@ -1,1 +1,1 @@
-worker: phyton discord-bot.py
+worker: phyton bot1.py
