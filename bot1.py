@@ -15,10 +15,9 @@ async def on_ready():
         await message.channel.send('нахуя вы что-то в чат высираете бездари')
      if message.content.startswith('дед инсайд'):
         await message.channel.send(f'{ message.author.mention }' ' че звал сларк')
-     if message.content.startswith('мама' | 'мать' | 'мамка' | 'маму'):
+          if message.content.startswith('мама'):
         await message.channel.send('кчау')
     
-
 
     token = os.environ.get('BOT_TOKEN')
 
